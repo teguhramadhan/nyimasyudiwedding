@@ -33,7 +33,7 @@ export default function Datewedding() {
 
         {/* Save The Date */}
         <div className="flex flex-col justify-center items-center gap-0 my-24">
-          <h1 className="text-xl lg:text-3xl font-slabo text-center mb-8">
+          <h1 className="text-xl lg:text-3xl font-slabo text-center mb-8 uppercase">
             Save The Date
           </h1>
 
@@ -58,7 +58,7 @@ export default function Datewedding() {
 
               <p className="text-sm mb-6 font-slabo">08:00 - 10:00</p>
 
-              <div className="text-base leading-relaxed">
+              <div className="text-base">
                 <p className="font-medium text-2xl font-slabo">
                   Rumah Mempelai Perempuan
                 </p>

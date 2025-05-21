@@ -2,7 +2,7 @@
 
 export default function Groomandbride() {
   return (
-    <div className="h-screen px-4 lg:px-24 my-12">
+    <div className="h-auto px-4 lg:px-24 my-12">
       <div className="flex justify-center items-center">
         <h1 className="text-2xl lg:text-6xl font-cinzelDecorative mb-6">
           bride and groom

@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="absolute bottom-12 md:bottom-24 left-1/2 -translate-x-1/2 z-50">
         <a
           href="#"
-          className="border bg-white text-black hover:bg-black hover:text-white transition-all duration-700 ease-in-out px-6 py-4 md:px-8 md:py-5 text-lg font-slabo font-medium"
+          className="border border-gold bg-gold text-white hover:bg-gray-950 hover:text-white transition-all duration-700 ease-in-out px-6 py-4 md:px-8 md:py-5 text-xl font-slabo font-medium"
         >
           Buka Undangan
         </a>
@@ -45,9 +45,10 @@ export default function Hero() {
         <h1 className="text-2xl mx-auto font-cinzelDecorative mt-6">
           Nyimas & Yudi
         </h1>
+        <h2 className="font-slabo">22 JUNI 2025</h2>
         <div className="mt-12">
-          <h2 className="font-slabo">Kepada YTH.</h2>
-          <p className="font-cinzel">Bpk [Disini nama nya dinamis]</p>
+          <h2 className="font-slabo mb-3">Kepada YTH.</h2>
+          <p className="font-cinzel text-xl">Bpk [Disini nama nya dinamis]</p>
         </div>
       </div>
     </div>

@@ -126,7 +126,7 @@ export default function RSVPForm() {
           disabled={loading}
           className="w-full bg-pink-500 text-white p-2 rounded"
         >
-          {loading ? "Mengirim..." : "Kirim RSVP"}
+          {loading ? "Sedang mengirim ucapan..." : "Kirim Ucapan Anda"}
         </button>
 
         {sukses && (
@@ -138,9 +138,11 @@ export default function RSVPForm() {
 
       {/* Tampilkan daftar RSVP di bawah form */}
       <div className="mt-8">
-        <h4 className="text-xl font-semibold mb-4 text-center">Daftar RSVP</h4>
+        <h4 className="text-xl font-semibold mb-4 text-center">
+          Ucapan untuk kedua mempelai
+        </h4>
         {rsvps.length === 0 ? (
-          <p className="text-center text-gray-600">Belum ada RSVP masuk.</p>
+          <p className="text-center text-gray-600">Belum ada Ucapan masuk.</p>
         ) : (
           <ul>
             {rsvps.map(({ id, nama, hadir, jumlah, ucapan }) => (

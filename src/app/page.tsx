@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Datewedding from "@/components/Datewedding";
 import Groomandbride from "@/components/Groomandbride";
+import Story from "@/components/Story";
 import RSVPForm from "@/components/RSVPForm";
 import Hero from "@/components/Hero";
 
@@ -18,6 +19,10 @@ export default function Home() {
 
       <section>
         <Groomandbride />
+      </section>
+
+      <section>
+        <Story />
       </section>
 
       {/* RSVP Form */}
