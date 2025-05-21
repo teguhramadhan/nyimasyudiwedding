@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Datewedding from "@/components/Datewedding";
+import Groomandbride from "@/components/Groomandbride";
 import RSVPForm from "@/components/RSVPForm";
 import Hero from "@/components/Hero";
 
@@ -15,21 +16,8 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section className="bg-black">
+      <section>
         <Datewedding />
-      </section>
-
-      {/* Waktu & Tempat */}
-      <section
-        className="py-12 bg-white shadow-inner text-center"
-        aria-label="Informasi Waktu dan Tempat Acara"
-      >
-        <h2 className="text-3xl font-semibold mb-4">Waktu &amp; Tempat</h2>
-        <div className="text-lg space-y-1">
-          <p>Minggu, 25 Mei 2025</p>
-          <p>Pukul 10:00 WIB</p>
-          <p>Gedung Serbaguna Cinta Kasih, Bandung</p>
-        </div>
       </section>
 
       {/* Galeri Foto */}

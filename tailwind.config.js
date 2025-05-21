@@ -7,6 +7,10 @@ const config = {
         cinzel: ['"Cinzel"', "serif"],
         cinzelDecorative: ['"Cinzel Decorative"', "cursive"],
         slabo: ['"Slabo 27px"', "serif"],
+        notoNaskhArabic: ["var(--font-noto-naskh-arabic)", "sans-serif"],
+      },
+      colors: {
+        gold: "#ECC776",
       },
     },
   },

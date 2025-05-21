@@ -2,45 +2,49 @@
 
 export default function Hero() {
   return (
-    <div>
+    <div className="overflow-hidden text-white">
       {/* Overlay gradasi */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent z-0"></div>
+      <div className="absolute inset-0 bg-black/40 z-10 h-screen" />
 
-      {/* Ornamen hanya aktif selama Hero section */}
+      {/* Ornamen */}
       <img
         src="/images/ornaments/ornaments1.png"
         alt="Ornamen Hero"
-        className="absolute top-0 left-0 aspect-auto w-[350px]  md:w-[140px] md:aspect-auto lg:w-[400px] lg:aspect-auto z-20 pointer-events-none"
+        className="absolute top-0 left-0 w-[350px] md:w-[140px] lg:w-[400px] z-20 pointer-events-none"
       />
       <img
         src="/images/ornaments/ornaments2.png"
         alt="Ornamen Hero"
-        className="absolute bottom-0 right-0 w-[350px] aspect-auto  md:w-[140px] md:aspect-auto lg:w-[400px] lg:aspect-auto z-20 pointer-events-none"
+        className="absolute bottom-0 right-0 w-[350px] md:w-[140px] lg:w-[400px] z-20 pointer-events-none"
       />
 
       {/* Tombol Buka Undangan */}
-      <div className="absolute bottom-12 md:bottom-24 lg:bottom-24 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="absolute bottom-12 md:bottom-24 left-1/2 -translate-x-1/2 z-50">
         <a
           href="#"
-          className="border bg-white text-black hover:bg-black hover:text-white transition-all duration-700 ease-in-out px-4 py-4 md:px-6 md:py-4 lg:px-8 lg:py-6 text-lg font-slabo font-medium"
+          className="border bg-white text-black hover:bg-black hover:text-white transition-all duration-700 ease-in-out px-6 py-4 md:px-8 md:py-5 text-lg font-slabo font-medium"
         >
           Buka Undangan
         </a>
       </div>
 
-      {/* Konten utama di atas overlay */}
-      <div className="relative z-30 flex flex-col items-center justify-center px-4 gap-12">
-        <h1 className="text-lg md:text-2xl lg:text-4xl font-cinzel">
+      {/* Konten Utama */}
+      <div className="absolute inset-0 z-30 flex flex-col items-center justify-center px-4 text-center">
+        <h1 className="text-lg md:text-2xl lg:text-4xl font-cinzel mb-6">
           UNDANGAN PERNIKAHAN
         </h1>
         <img
           src="/images/logo_white.png"
           alt="Logo pernikahan"
-          className="w-[200px] aspect-auto"
+          className="w-[200px] mx-auto"
         />
-        <h1 className="text-2xl max-w-xl font-cinzelDecorative">
+        <h1 className="text-2xl mx-auto font-cinzelDecorative mt-6">
           Nyimas & Yudi
         </h1>
+        <div className="mt-12">
+          <h2 className="font-slabo">Kepada YTH.</h2>
+          <p className="font-cinzel">Bpk [Disini nama nya dinamis]</p>
+        </div>
       </div>
     </div>
   );
