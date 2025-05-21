@@ -2,9 +2,9 @@
 
 export default function Groomandbride() {
   return (
-    <div className="h-screen px-4 lg:px-24">
+    <div className="h-screen px-4 lg:px-24 my-12">
       <div className="flex justify-center items-center">
-        <h1 className="text-2xl lg:text-6xl font-cinzelDecorative my-12">
+        <h1 className="text-2xl lg:text-6xl font-cinzelDecorative mb-6">
           bride and groom
         </h1>
       </div>
@@ -24,6 +24,9 @@ export default function Groomandbride() {
           <p className="text-lg lg:text-2xl font-slabo text-gray-500">
             Bpk. Fulan, Ibu Fulana
           </p>
+          <h3 className="font-slabo text-2xl mt-6">
+            instagram : <a href="#">@nyimasss</a>
+          </h3>
           <img
             src="/images/bride_avatar.png"
             alt="Logo pernikahan"
@@ -44,6 +47,9 @@ export default function Groomandbride() {
           <p className="text-lg lg:text-2xl font-slabo text-gray-500">
             Bpk. Fulan, Ibu Fulana
           </p>
+          <h3 className="font-slabo text-2xl mt-6">
+            instagram : <a href="#">@yudiii</a>
+          </h3>
         </div>
       </div>
     </div>
