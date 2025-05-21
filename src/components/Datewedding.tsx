@@ -6,7 +6,7 @@ export default function Datewedding() {
       className="px-4 py-4 md:px-12 md:py-12 lg:px-24 lg:py-24 min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/images/ornaments/ornaments3.png')" }}
     >
-      <div className="border-2 border-dashed border-orange-500 px-6 py-6 bg-black/5 backdrop-blur-sm">
+      <div className="border-2 border-dashed border-gold px-6 py-6 bg-black/5 backdrop-blur-sm">
         {/* Ayat AL-Qur'an */}
         <div className="flex flex-col justify-center items-center gap-6">
           <img
@@ -32,75 +32,69 @@ export default function Datewedding() {
         </div>
 
         {/* Save The Date */}
-        <div className="flex flex-col justify-center items-center gap-0 mt-24">
-          <h1 className="text-xl lg:text-3xl font-slabo text-center">
+        <div className="flex flex-col justify-center items-center gap-0 my-24">
+          <h1 className="text-xl lg:text-3xl font-slabo text-center mb-8">
             Save The Date
           </h1>
-          {/* Date Akad */}
-          <h2 className="text-4xl lg:text-5xl font-cinzel text-center mt-6">
-            AKAD NIKAH
-          </h2>
-          <div className="text-black pt-4 px-4 text-center">
-            <p className="text-xl tracking-wide mb-4 uppercase font-slabo">
-              Minggu
-            </p>
 
-            <div className="flex justify-center items-center space-x-6 mb-4">
-              {/* Bulan */}
-              <div className="text-2xl font-semibold font-cinzel">Juni</div>
+          {/* Container akad & resepsi */}
+          <div className="flex flex-col lg:flex-row justify-center items-stretch gap-12 w-full px-4">
+            {/* Akad Nikah */}
+            <div className="flex-1 text-black pt-4 px-4 text-center">
+              <h2 className="text-3xl lg:text-4xl font-cinzel mb-4">
+                AKAD NIKAH
+              </h2>
+              <p className="text-xl tracking-wide mb-4 uppercase font-slabo">
+                Minggu
+              </p>
 
-              {/* Tanggal */}
-              <div className="border-l border-r border-black px-6 text-6xl font-bold font-cinzel">
-                22
+              <div className="flex justify-center items-center space-x-6 mb-4">
+                <div className="text-2xl font-semibold font-cinzel">Juni</div>
+                <div className="border-l border-r border-black px-6 text-6xl font-bold font-cinzel">
+                  22
+                </div>
+                <div className="text-2xl font-semibold font-cinzel">2025</div>
               </div>
 
-              {/* Tahun */}
-              <div className="text-2xl font-semibold font-cinzel">2025</div>
+              <p className="text-sm mb-6 font-slabo">08:00 - 10:00</p>
+
+              <div className="text-base leading-relaxed">
+                <p className="font-medium text-2xl font-slabo">
+                  Rumah Mempelai Perempuan
+                </p>
+                <p className="font-slabo">
+                  Jl. Saneke, Kecamatan Kutawaringin Kabupaten Bandung
+                </p>
+              </div>
             </div>
 
-            <p className="text-sm mb-6 font-slabo">08:00 - 10:00</p>
-
-            <div className="text-base leading-relaxed">
-              <p className="font-medium text-2xl font-slabo">
-                Rumah Mempelai Perempuan
+            {/* Resepsi Pernikahan */}
+            <div className="flex-1 text-black pt-4 px-4 text-center">
+              <h2 className="text-3xl lg:text-4xl font-cinzel mb-4">
+                RESEPSI PERNIKAHAN
+              </h2>
+              <p className="text-xl tracking-wide mb-4 uppercase font-slabo">
+                Minggu
               </p>
-              <p className="font-slabo">
-                Jl. Saneke, Kecamatan Kutawaringin Kabupaten Bandung
-              </p>
-            </div>
-          </div>
 
-          {/* Date Resepsi */}
-          <h2 className="text-4xl lg:text-5xl font-cinzel text-center mt-6">
-            RESEPSi PERNIKAHAN
-          </h2>
-          <div className="text-black pt-4 px-4 text-center">
-            <p className="text-xl tracking-wide mb-4 uppercase font-slabo">
-              Minggu
-            </p>
-
-            <div className="flex justify-center items-center space-x-6 mb-4">
-              {/* Bulan */}
-              <div className="text-2xl font-semibold font-cinzel">Juni</div>
-
-              {/* Tanggal */}
-              <div className="border-l border-r border-black px-6 text-6xl font-bold font-cinzel">
-                22
+              <div className="flex justify-center items-center space-x-6 mb-4">
+                <div className="text-2xl font-semibold font-cinzel">Juni</div>
+                <div className="border-l border-r border-black px-6 text-6xl font-bold font-cinzel">
+                  22
+                </div>
+                <div className="text-2xl font-semibold font-cinzel">2025</div>
               </div>
 
-              {/* Tahun */}
-              <div className="text-2xl font-semibold font-cinzel">2025</div>
-            </div>
+              <p className="text-sm mb-6 font-slabo">10:00 - 16:00</p>
 
-            <p className="text-sm mb-6 font-slabo">10:00 - 16:00</p>
-
-            <div className="text-base leading-relaxed">
-              <p className="font-medium text-2xl font-slabo">
-                Rumah Mempelai Perempuan
-              </p>
-              <p className="font-slabo">
-                Jl. Saneke, Kecamatan Kutawaringin Kabupaten Bandung
-              </p>
+              <div className="text-base leading-relaxed">
+                <p className="font-medium text-2xl font-slabo">
+                  Rumah Mempelai Perempuan
+                </p>
+                <p className="font-slabo">
+                  Jl. Saneke, Kecamatan Kutawaringin Kabupaten Bandung
+                </p>
+              </div>
             </div>
           </div>
         </div>

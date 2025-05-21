@@ -2,7 +2,11 @@
 
 export default function Hero() {
   return (
-    <div className="overflow-hidden text-white">
+    <div
+      className="py-32 text-center text-white bg-cover bg-center lg:bg-center bg-no-repeat h-screen"
+      style={{ backgroundImage: "url('/images/hero_img1.png')" }}
+      aria-label="Bagian Hero Undangan overflow-hidden text-white"
+    >
       {/* Overlay gradasi */}
       <div className="absolute inset-0 bg-black/40 z-10 h-screen" />
 
