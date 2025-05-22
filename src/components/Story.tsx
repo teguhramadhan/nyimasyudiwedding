@@ -25,30 +25,33 @@ export default function Story() {
       title: "First Meet",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate, sapien eu mollis aliquet, turpis dui mollis est, ut fringilla nibh augue vel urna. Praesent convallis, mauris nec consectetur condimentum, orci turpis congue quam, id venenatis turpis lectus sed massa. Nunc sit amet orci lectus. Fusce at aliquet est. Vivamus malesuada suscipit est, non commodo velit commodo.",
-      image: "/images/hero_img.jpg",
+      image: "/images/story/1.jpg",
     },
     {
       title: "First Date",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate, sapien eu mollis aliquet, turpis dui mollis est, ut fringilla nibh augue vel urna. Praesent convallis, mauris nec consectetur condimentum, orci turpis congue quam, id venenatis turpis lectus sed massa. Nunc sit amet orci lectus. Fusce at aliquet est. Vivamus malesuada suscipit est, non commodo velit commodo.",
-      image: "/images/hero_img.jpg",
+      image: "/images/story/2.jpg",
     },
     {
       title: "Engagement",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate, sapien eu mollis aliquet, turpis dui mollis est, ut fringilla nibh augue vel urna. Praesent convallis, mauris nec consectetur condimentum, orci turpis congue quam, id venenatis turpis lectus sed massa. Nunc sit amet orci lectus. Fusce at aliquet est. Vivamus malesuada suscipit est, non commodo velit commodo.",
-      image: "/images/hero_img.jpg",
+      image: "/images/story/3.jpg",
     },
     {
       title: "Getting Married",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate, sapien eu mollis aliquet, turpis dui mollis est, ut fringilla nibh augue vel urna. Praesent convallis, mauris nec consectetur condimentum, orci turpis congue quam, id venenatis turpis lectus sed massa. Nunc sit amet orci lectus. Fusce at aliquet est. Vivamus malesuada suscipit est, non commodo velit commodo.",
-      image: "/images/hero_img.jpg",
+      image: "/images/story/1.jpg",
     },
   ];
 
   return (
-    <div className="relative max-w-6xl mx-auto py-12 px-4">
+    <div
+      className="relative max-w-6xl mx-auto py-12 px-4 bg-contain"
+      style={{ backgroundImage: "url('/images/ornaments/ornaments3.png')" }}
+    >
       <div className="flex justify-center items-center pb-6">
         <h1 className="text-2xl lg:text-6xl font-cinzelDecorative mb-3">
           Our Story
@@ -58,14 +61,14 @@ export default function Story() {
       <div
         className={`${
           isMobile ? "hidden" : "block"
-        } absolute left-1/2 top-64 bottom-64 w-1 bg-gold`}
+        } absolute left-1/2 top-64 bottom-64 w-[1px] bg-gray-400`}
       ></div>
 
       {/* Mobile timeline line */}
       <div
         className={`${
           isMobile ? "block" : "hidden"
-        } absolute left-8 top-0 bottom-0 w-1 bg-gold`}
+        } absolute left-8 top-0 bottom-0 w-[1px] bg-gray-400`}
       ></div>
 
       {items.map((item, idx) => {
@@ -82,7 +85,7 @@ export default function Story() {
             <div
               className={`absolute z-10 bg-gold rounded-full border-4 border-white shadow-lg ${
                 isMobile
-                  ? "left-8 top-8 w-6 h-6 -translate-x-1/2"
+                  ? "left-4 top-8 w-6 h-6 -translate-x-1/2"
                   : "left-1/2 top-1/2 w-8 h-8 -translate-x-1/2 -translate-y-1/2"
               }`}
             ></div>
