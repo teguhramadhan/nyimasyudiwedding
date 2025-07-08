@@ -6,6 +6,7 @@ import Story from "@/components/Story";
 import RSVPForm from "@/components/RSVPForm";
 import Gifts from "@/components/Gifts";
 import Footers from "@/components/Footers";
+import GalleryPhotos from "@/components/GalleryPhotos";
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
 
       <section>
         <Groomandbride />
+      </section>
+
+      <section>
+        <GalleryPhotos />
       </section>
 
       <section>

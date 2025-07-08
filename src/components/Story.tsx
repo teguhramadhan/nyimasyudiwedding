@@ -49,7 +49,7 @@ export default function Story() {
 
   return (
     <div
-      className="relative max-w-6xl mx-auto py-12 px-4 bg-contain"
+      className="relative max-w-full mx-auto px-4 lg:px-72 my-12 bg-contain"
       style={{ backgroundImage: "url('/images/ornaments/ornaments3.png')" }}
     >
       <div className="flex justify-center items-center pb-6">
