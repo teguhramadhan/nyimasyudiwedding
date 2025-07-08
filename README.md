@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💌 Undangan Digital Pernikahan
 
-## Getting Started
+Selamat datang di repository **Undangan Digital Pernikahan**!  
+Proyek ini merupakan aplikasi web interaktif untuk mengelola RSVP tamu undangan secara online, dengan desain elegan dan nuansa budaya yang hangat.
 
-First, run the development server:
+---
+
+## ✨ Fitur Utama
+
+- 🎨 **Tampilan Elegan** — Desain bertema gold dengan sentuhan dekoratif.
+- 📝 **Form RSVP** — Pengunjung dapat mengisi nama, konfirmasi kehadiran, jumlah tamu, dan ucapan.
+- 🔁 **Realtime Update** — Ucapan yang dikirim langsung tampil tanpa perlu refresh (powered by Firestore).
+- 📜 **Daftar Ucapan** — Menampilkan semua ucapan dari tamu undangan secara estetik.
+- 📱 **Responsif** — Tampilan menyesuaikan perangkat mobile maupun desktop.
+
+---
+
+## 🔧 Teknologi yang Digunakan
+
+- [Next.js](https://nextjs.org/) — Framework React modern
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS styling
+- [Firebase Firestore](https://firebase.google.com/products/firestore) — Database realtime untuk RSVP
+- TypeScript — Supaya lebih aman dan jelas secara tipe data
+- Vercel — Untuk deployment super cepat (opsional)
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+
+### 1. Clone Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/namakamu/undangan-digital.git
+cd undangan-digital
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instalasi Dependensi
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Konfigurasi Firebase
+Buat file .env.local dan isi dengan konfigurasi Firebase milikmu:
+```bash
+NEXT_PUBLIC_FIREBASE_API_KEY=...
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=...
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=...
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=...
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=...
+NEXT_PUBLIC_FIREBASE_APP_ID=...
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Jalankan Proyek di Lokal
+```bash
+npm run dev
+```
+Akses proyek di http://localhost:3000
 
-## Learn More
+## Struktur Folder
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/user-attachments/assets/86e08275-b6b7-44fc-9016-145cda00998b)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Screenshot Project
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/e2b9aea9-45d0-4be6-a8f7-19af91c3c025) ![image](https://github.com/user-attachments/assets/dc0e25f6-fa0c-4878-ac09-761aa87ac52d)
+![image](https://github.com/user-attachments/assets/dfe2d5f2-aacf-474b-9d19-aede3f49d482) ![image](https://github.com/user-attachments/assets/209e4ad8-115d-47be-b98b-3a0df5ac4413)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+🤝 Kontribusi
+Pull request sangat diterima! Jika kamu ingin membantu mengembangkan tema, fitur RSVP tambahan, atau integrasi lainnya, silakan fork dulu dan buat PR yaa 🤗
